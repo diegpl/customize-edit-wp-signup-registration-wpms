@@ -1,0 +1,257 @@
+/*twenty fourteen theme*/
+.site:before {
+	display: none;
+}
+
+/* end new style with twenty fourteen theme */
+
+/* fix limitless problems */
+body div.bottom-area, body div.top-area-wrapper, body .top-area-wrapper div.top-area {
+	background-color: transparent;
+}
+
+body {
+	background: url('http://userdev.com.br/wp-content/uploads/2014/04/sky2.jpg') -260px -390px;
+}
+
+body div.super-wrapper {
+	background: transparent;
+}
+
+body .mu_register {
+	width: 95%;
+}
+
+body .theme-previewer-wrap:nth-child(even), body .theme-screenshot-wrap:nth-child(even), body .theme-screenshot-plus-wrap:nth-child(even) {
+	margin-right: 13px;
+}
+
+body .mu_register input[type="submit"] {
+	font-size: 16px;
+	/*padding: 5px 20px;*/
+	font-family: 'Arial';
+}
+
+body div.inner-super-wrapper {
+	background-image: none;
+	background-color: transparent;
+}
+
+body div.bottom-area {
+	/*border-bottom: none;*/
+	display: none;
+}
+
+/* end of limitless problems */
+
+p.submit {
+	position: absolute;
+	z-index: 999;
+}
+
+body #nbt-toolbar {
+	border-top: none;
+	float: left;
+}
+
+.new-user {
+	position: absolute;
+	top: 25px;
+	width: 35%;
+	right: 44px;
+	z-index: 999;
+}
+
+body .mu_register #password_1, body .mu_register #password_2 {
+    font-size: 16px;
+	/*width: 90%;*/
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+body .mu_register #password_2 {
+	margin-top: 5px;
+}
+
+body .mu_register .user-name-email #user_name, body .mu_register .user-name-email  #user_email, body .mu_register #blogname , body .mu_register #blog_title{
+	/*width: 90%;*/
+	font-size: 16px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+h2 {
+	margin: 20px 0px 0px 0px;
+	padding: 0;
+	font-size: 36;
+	color: #fff;
+	text-shadow: 1px 2px 3px #666;
+}
+
+.gimme-site {
+	float: left;
+}
+
+.user-name-email {
+	float: left;
+	width: 45%;
+	margin-right: 20px;
+}
+
+.user-pass {
+	float: left;
+	width: 45%;
+}
+
+/*#setupform {
+	float: left;
+}*/
+
+body .mu_register .mu_alert {
+	position: fixed;
+	bottom: 23px;
+	z-index: 100;
+	width: 340px;
+	right: 4.5%;
+}
+
+/*.mu_register h2 {
+	float: left;
+}*/
+
+
+body .site-main .mu_register, body .widecolumn > h2, bod y .widecolumn > form {
+margin: 0 auto 48px;
+max-width: 100%;
+padding: 0 30px;
+}
+
+body .site-content, body .site-main .widecolumn {
+	margin-left: 0;
+}
+
+body .theme-previewer-wrap, body .theme-page-showcase-wrap, body .theme-screenshot-wrap {
+	
+	width: 23%;
+}
+
+/* only for chrome and safari */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{ 
+    body .theme-previewer-wrap, body .theme-page-showcase-wrap, body .theme-screenshot-wrap { width: 23.5%; } 
+}
+
+.mu_register h2 {
+	margin-left: 1%;
+}
+
+body #blog_template-selection {
+	margin-left: 1%;
+}
+
+.your-sites {
+	padding-left: 10px;
+	color: darkblue;
+	float: left;
+	margin: 28px 0 0 3px;
+}
+
+body .mu_register label {
+	margin-top: 0;
+}
+
+body .privacy-intro {
+	margin-top: 0;
+}
+
+body .mu_register form {
+	margin-top: 0;
+}
+
+.mu_register ul.sites-list {
+	background-color: #fff;
+	padding: 20px 20px 20px 35px;
+	z-index: 999;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 34%;
+	top: 200px;
+	border-radius: 5px;
+}
+
+#blog_template-selection {
+    width: 100%;
+	/*float: left;*/
+}
+
+body div.sticky-contact {
+	top: 35%;
+}
+
+body.logged-in .new-site {
+	top: 60px;
+}
+
+.new-site {
+	float: left;
+	clear: left;
+	position: absolute;
+	right: 23.5%;
+	top: 30px;
+	width: 16%;
+	z-index: 999;
+}
+
+body.logged-in #privacy {
+	top: 59px;
+}
+
+body #privacy {
+	width: 21.2%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: absolute;
+	z-index: 999;
+	right: 0%;
+	top: 29px;
+	}
+
+body .signup-finished h2 {
+	color: #000;
+	text-shadow: none;
+	/*margin-top: 10px;*/
+	line-height: 30px;
+}
+	
+.signup-finished {
+	position: absolute;
+	z-index: 999;
+	background: #fff;
+	right: 4.4%;
+	padding: 0 20px 10px 20px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	width: 35%;
+	top: 45px;
+}
+	
+body .mu_register .error {
+	/*font-weight: 700;
+
+	color: #333333;
+	background: #FFEBE8; 
+	border: 1px solid #CC0000;
+	position: absolute;
+	top: 145px;
+	left: 816px;*/
+	width: auto;
+	border-radius: 5px;
+	padding: 3px 10px;
+	margin: 0 15px 5px 0;
+	float: left;
+	clear: both;
+
+}

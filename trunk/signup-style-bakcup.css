@@ -1,0 +1,169 @@
+/*twenty fourteen theme*/
+.site:before {
+	display: none;
+}
+
+/* end new style with twenty fourteen theme */
+
+
+body .mu_register { 
+	width: 20%; 
+	position: absolute; 
+	right: 16%;
+	margin-top: -80px;
+	z-index: 1000;
+	background-color: #fff;
+	padding: 20px 20px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+body .top-area-wrapper div.top-area {
+	background-color: transparent;
+}	
+
+body.logged-in .mu_register {
+	width: 33%;
+	right: 10%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.blog_template-option {
+	margin-top: 30px;
+}
+
+body .mu_register #password_1, body .mu_register #password_2 {
+    font-size: 14px;
+    margin: 10px 0px 0 0;
+	width: 94%;
+}
+
+.your-sites {
+	padding-left: 10px;
+	color: blue;
+}
+
+body #nbt-toolbar {
+	border-top: none;
+	padding-top: 40px;
+}
+
+#blog_template-selection {
+	//padding: 0 30px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#blog_template-selection h3 {
+	position: fixed;
+	right: 20%;
+	top: 60px;
+}
+
+body .theme-previewer-wrap, body .theme-page-showcase-wrap, body .theme-screenshot-wrap {
+	width: 24%;
+}
+
+body .theme-previewer-wrap:nth-child(even), body .theme-screenshot-wrap:nth-child(even), body .theme-screenshot-plus-wrap:nth-child(even) {
+	margin-right: 10px;
+}
+
+body .mu_register #user_name, body .mu_register #blogname {
+	width: 94%;
+	font-size: 14px;
+	margin: 0px 0;
+}
+
+body .mu_register input[type="submit"], body .mu_register #blog_title, body .mu_register #user_email {
+	width: 94%;
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+
+body .mu_register label {
+	font-weight: 100;
+	font-size: 14px;
+	display: inline;
+	margin: 0px 0;
+}
+
+body .mu_register form {
+	margin-top: 20px;
+}
+
+body .signup-button {
+	margin: 0px 0px 15px;
+	padding: 0px;
+	color: #fff;
+	position: absolute;
+	right: 340px;
+	top: 0px;
+	background-color: #46759b;
+	width: auto;
+	padding: 5px 10px;
+	z-index: 130;
+	border: none;
+border-radius: 0 0 3px 3px;
+}
+
+body div.top-area-wrapper {
+	background-color: transparent;
+}
+
+body form {
+	color: #000;
+}
+
+body h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+body p {
+	color: #000;
+}
+
+body .mu_alert {
+	color: #000;
+}
+
+div.bottom-area {
+	border-bottom: 0;
+	padding: 0;
+}
+
+body div.sticky-contact a.trigger {
+	top: 160px;
+}
+
+body {
+	background-position: -390px -190px;
+}
+
+body .mu_register .mu_alert, body .mu_register .error {
+	color: #000;
+	//background-color: aliceblue;
+	//background-color: cornsilk; cor de deserto
+	//background: azure;
+	background: mintcream;
+	padding: 5px 10px;
+	font-weight: 100;
+	border: none;
+}
+
+body #user_email {
+	margin-top: 15px;
+}
+
+body #noemail-tips {
+	color: #000;
+}
+
+input[type=text], input[type=password] {
+	-webkit-box-shadow:inset 0 0 6px #000;
+	-moz-box-shadow:inset 0 0 6px #000;
+	box-shadow:inset 0 0 6px #000;
+
+	//background: transparent;
+}​
